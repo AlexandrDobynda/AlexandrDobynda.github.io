@@ -1,0 +1,79 @@
+@font-face{
+	font-family: ballpark;
+	src: url(../fonts/ballpark.ttf);
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+
+
+body {
+	font-size: 12px;
+	line-height: 1.5;
+	color: #fff;
+}
+
+.top-block {
+	background: url(../images/bg-top-block.gif) repeat 0 0;
+	border-bottom: 4px solid #242424;
+}
+
+header {
+	padding-top: 24px;
+	padding-bottom: 15px;
+}
+
+.logo {
+	color: #e0e0e0;
+	font-size: 36px;
+	font-family: ballpark;
+}
+
+.logo:hover {
+	color: #fff;
+}
+
+nav a {
+	color: #e8e8e8;
+	font-size: 12px;
+	padding: 11px 14px;
+
+}
+
+nav a:hover{
+	color: #e0e0e0;
+}
+
+nav .list-inline>li {
+	padding-right: 24px;
+	background: url(../images/bg-nav-li.png) no-repeat 100% 50%;
+}
+
+/*не работает*/
+nav li.active a, nav a:hover{
+	background: #282828;/*-webkit-linear-gradient (to bottom,#282828,#2e2e2e);*/
+	border-radius: 3px;
+
+
+}
+
+form {
+	background: #2f2f2f;
+	border-top: 1px solid #262626;
+	border-radius: 17px ;
+	padding:4px;
+}
+
+input[type="text"]{
+	width: 75%;
+	outline: none;
+}
+
+input, button {
+	background: transparent;
+	border: none;
+}
