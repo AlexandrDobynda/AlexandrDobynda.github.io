@@ -106,6 +106,9 @@ input, button {
 }
 
 /*карусель*/
+.carousel-inner img{
+	width: 100%;
+}
 
 .carousel-indicators {
 /*	text-align: right;*/
