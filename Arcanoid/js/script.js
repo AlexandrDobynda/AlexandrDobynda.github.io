@@ -92,7 +92,7 @@ function drawBricks() {
 				bricks[c][r].y = brickY;
 				ctx.beginPath();
 				ctx.rect(brickX, brickY, brickWidth, brickHeight);
-				ctx.fillStyle = "bricksColor";
+				ctx.fillStyle = "#0095DD";
 				ctx.fill();
 				ctx.closePath();
 			}
@@ -120,7 +120,7 @@ function collision() {
 function drawBall() {
 	ctx.beginPath();
 	ctx.arc(x, y, ballRadius, 0, Math.PI*2);
-	ctx.fillStyle = "ballColor";
+	ctx.fillStyle = "#0095DD";
 	ctx.fill();
 	ctx.closePath();
 }
@@ -128,7 +128,7 @@ function drawBall() {
 function drowPaddle() {
 	ctx.beginPath();
 	ctx.rect(paddleX, canvas.height-paddleHeight, paddleWidth, paddleHeight);
-	ctx.fillStyle = "paddleColor"; 
+	ctx.fillStyle = "#0095DD"; 
 	ctx.fill();
 	ctx.closePath();
 }
