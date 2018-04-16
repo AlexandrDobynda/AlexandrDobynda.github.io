@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>menu</title>
+	<link rel="stylesheet" href="../css/styles.css" class="css">
+	<style>h3{margin-left: -350px;}</style>
+</head>
+<body>
+
+	<div class="menu">
+		<div class="caption"><h1>Arcanoid</h1></div>
+		
+		<div class="brick_colors option_colors">
+			<h3>Цвет кирпичиков:</h3>
+			<div class="colors">
+				<div id="blue" onclick="localStorage.setItem('bricksColor','#0095DD');">Синий</div>
+				<div id="red" onclick="localStorage.setItem('bricksColor','#dd0000');">Красный</div>
+				<div id="green" onclick="localStorage.setItem('bricksColor','#0095DD');">Зеленый</div>								
+			</div>
+			<br>
+
+		<div class="paddle_colors option_colors">
+			<h3>Цвет панели:</h3>
+			<div class="colors">
+				<div id="blue" onclick="localStorage.setItem('paddleColor','#0095DD');">Синий</div>
+				<div id="red" onclick="localStorage.setItem('paddleColor','#dd0000');">Красный</div>
+				<div id="green" onclick="localStorage.setItem('paddleColor','#0095DD');">Зеленый</div>								
+			</div>
+			<br>	
+
+		<div class="ball_colors option_colors">
+			<h3>Цвет мяча:</h3>
+			<div class="colors">
+				<div id="blue" onclick="localStorage.setItem('ballColor','#0095DD');">Синий</div>
+				<div id="red" onclick="localStorage.setItem('ballColor','#dd0000');">Красный</div>
+				<div id="green" onclick="localStorage.setItem('ballColor','#0095DD');">Зеленый</div>								
+			</div>
+			<br>		
+
+		</div>
+
+
+		<div class="PROBEL"></div>
+
+
+		<div class="back" onclick="document.location='../index.html'">
+			<h2>Сохранить</h2>
+		</div>
+
+
+
+		
+	</div>
+	
+</body>
+</html>

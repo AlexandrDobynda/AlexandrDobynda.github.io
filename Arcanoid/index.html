@@ -2,25 +2,28 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>GAME CANVAS</title>
-<!-- СТИЛИ -->
-	<style>
-		* {padding: 0;margin: 0;}
-		canvas {background: #eee; display: block; margin: 0 auto;}
-		body {background: #c9bda3;}
-	</style>
-<!-- СТИЛИ -->
+	<title>menu</title>
+	<link rel="stylesheet" href="css/styles.css" class="css">
+
 </head>
 <body>
 
-
+	<div class="menu">
+		<div class="caption"><h1>Arcanoid</h1></div>
+		<div class="play" onclick="document.location='files/game.html'">
+			<h2>Играть</h2>
+		</div>
+		<div class="options" onclick="document.location='files/options.html'">
+			<h2>Настройки</h2>
+		</div>
+		<div class="about" onclick="document.location='files/about.html'">
+			<h2>Об игре</h2>
+		</div>
+	<div class="about_cap">
+		<h3>Created by &lt;__&gt;</h3>
+	</div>
+		
+	</div>
 	
-	<canvas id="myCanvas" width="700" height="600"></canvas>
-
-	<script src="script.js" type="text/javascript"> </script>
-
-
-
-
 </body>
 </html>

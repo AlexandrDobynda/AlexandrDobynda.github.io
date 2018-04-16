@@ -1,0 +1,67 @@
+/*MENU*/
+
+.menu{
+	background-color: #ede2cb;
+	height: 440px;
+	width: 700px;
+	display: block;
+	margin: auto;
+	text-align: center;
+	padding: 5px;
+}
+.caption{
+	padding: 5px;
+	margin: -5px;
+	background-color: #d8c7a4;
+}
+.play, .options, .about, .back{
+	padding: 5px;
+	margin: 20px;
+	background-color: #ddb09d;
+	border-radius: 20px ;
+}
+.play:hover, .options:hover, .about:hover, .back:hover{
+	margin: 10px;
+	margin-top: 25px;
+	background-color: #d89a7f;
+}
+.about_cap {
+	padding: 2px;
+	background-color: #e0d3b8;
+	margin: -5px;
+}
+.back {
+		text-align: center;
+}
+
+/*MENU*/
+
+/*OPTIONS*/
+.option_colors {
+	background-color: #e0d3b8;
+}
+.colors{
+	margin-top: -30px;
+	margin-left: 250px;
+}
+#blue, #red, #green {
+	width: 60px;
+	float: left;
+	padding: 4px;
+	margin-left: 30px;
+	cursor: pointer;
+}
+#blue {
+	background-color: #0095DD;
+}
+#red {
+	background-color: #dd0000;
+}
+#green{
+	background-color: #00dd88;
+}
+
+.PROBEL {
+	height: 100px;
+}
+/*OPTIONS*/

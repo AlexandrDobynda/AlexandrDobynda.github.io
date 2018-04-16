@@ -31,7 +31,7 @@ for (c = 0; c < brickColumnCount; c++) {
 }
 
 function drowScore() {
-	ctx.font = "16px Arical";
+	ctx.font = "30px Arical";
 	ctx.fillStyle = "#0095DD";
 	ctx.fillText("Score:" + score, 8, 20);
 }
