@@ -20,10 +20,6 @@ var brickOffsetTop = 30;
 var brickOffsetLeft = 55;
 var score = 0;
 
-var bricksColor;
-var paddleColor;
-var ballColor;
-
 document.addEventListener("keydown", keyDownHandler, false);
 document.addEventListener("keyup", keyUpHandler, false);
 document.addEventListener("mousemove", mouseMoveHandler, false);
@@ -92,7 +88,7 @@ function drawBricks() {
 				bricks[c][r].y = brickY;
 				ctx.beginPath();
 				ctx.rect(brickX, brickY, brickWidth, brickHeight);
-				ctx.fillStyle = "#0095DD";
+				ctx.fillStyle = localStorage.getItem('bricksColor');
 				ctx.fill();
 				ctx.closePath();
 			}
@@ -120,7 +116,7 @@ function collision() {
 function drawBall() {
 	ctx.beginPath();
 	ctx.arc(x, y, ballRadius, 0, Math.PI*2);
-	ctx.fillStyle = "#0095DD";
+	ctx.fillStyle = localStorage.getItem('ballColor');
 	ctx.fill();
 	ctx.closePath();
 }
@@ -128,7 +124,7 @@ function drawBall() {
 function drowPaddle() {
 	ctx.beginPath();
 	ctx.rect(paddleX, canvas.height-paddleHeight, paddleWidth, paddleHeight);
-	ctx.fillStyle = "#0095DD"; 
+	ctx.fillStyle = localStorage.getItem('paddleColor'); 
 	ctx.fill();
 	ctx.closePath();
 }
