@@ -17,7 +17,9 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-
+	.toplogo h1 {
+		font-size: 1.9em;
+	}
 }
 
 /* Custom, iPhone Retina */
