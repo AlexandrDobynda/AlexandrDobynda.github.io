@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery UI - p2 </title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+<body>
+
+<div class="wrapper">
+
+	<input class="button_board" type="button" value="Построить доску" name="" onclick="addBoard();">
+	<input class="button_Draughts" type="button" value="Расставить шашки" name="" onclick="addDraughts();">	
+	<input class="button_reload" type="button" value="Перезагрузить игру" name="" onclick="reloadGame();">	
+
+	<div id="board"></div>
+
+	<div id="white_figures"> Для светлых шашек <p class="container_white">0</p> </div>
+	<div id="black_figures"> Для темных шашек <p class="container_black"> 0</p></div>	
+
+
+</div>
+	
+</body>
+</html>

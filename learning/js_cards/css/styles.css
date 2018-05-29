@@ -1,0 +1,50 @@
+.content {
+	margin: 80px 70px;
+	text-align: center;
+
+}
+
+.cards {
+	background-color: #ffd;
+}
+
+.slots {
+	background-color: #dff;
+
+}
+
+.slots div {
+	float: left;
+}
+
+.cards, .slots {
+	width: 910px;
+	height: 120px;
+	padding: 20px;
+	border: 1px solid orange;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
+    box-shadow: 0 0 .3em rgba(0, 0, 0, .8);
+}
+
+.cards div, .slots div {
+	width: 58px;
+	height: 78px;
+	padding: 10px;
+	border: 1px solid #333;
+	background: #fff;
+	-moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin: 0 0 0 10px;
+	float: left;
+}
+
+.style-card {
+	background-color: black !important;
+	outline: 2px solid yellow!important;
+	color: yellow;
+}
